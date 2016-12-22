@@ -1,0 +1,66 @@
+.main {
+  width: 1200px;
+  background-color: red;
+  margin: auto;
+}
+.candidate {
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  width: 19.5%;
+  position: relative;
+  overflow: hidden;
+  margin: 0.25%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.candidate .sub {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.sub div[class^='vote'] {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.sub .point {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
