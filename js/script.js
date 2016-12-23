@@ -41,8 +41,8 @@ for (i=0, l=candidates1.length; i<l; i+=1) {
   });
 
   if (cookie1.match(new RegExp("(?:^|,)" + id + "(?:,|$)"))) {
-    voted_element.style.display = 'block';
     vote_button.style.display = 'none';
+    voted_element.style.display = 'block';
   }
 }
 
