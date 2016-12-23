@@ -17,7 +17,7 @@
     </ul>
     <div class="main">
         <?php
-          $conn = new mysqli('localhost', 'root', '123', 'poll');
+          include 'conn.php';
           mysqli_set_charset($conn,"utf8");
           $result1 = $conn->query('SELECT * FROM candidates ORDER BY nomination1 DESC');
           $result2 = $conn->query('SELECT * FROM candidates ORDER BY nomination2 DESC');
