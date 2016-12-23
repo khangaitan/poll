@@ -21,7 +21,7 @@ for (i=0, l=candidates1.length; i<l; i+=1) {
 
   vote_button.addEventListener('click', function(e) {
     console.log(e);
-    e.source.removeEventListener('click', arguments.callee);
+    e.target.removeEventListener('click', arguments.callee);
     var that = this;
     var id = that.dataset.id;
     var point_element = that.nextSibling.nextSibling;
