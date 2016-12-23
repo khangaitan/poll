@@ -19,7 +19,8 @@ for (i=0, l=candidates1.length; i<l; i+=1) {
   var vote_button = el.getElementsByClassName('vote')[0];
   var voted_element = el.getElementsByClassName('voted')[0];
 
-  vote_button.addEventListener('click', function() {
+  vote_button.addEventListener('click', function(e) {
+    e.source.removeEventListener('click', arguments.callee);
     var that = this;
     var id = that.dataset.id;
     var point_element = that.nextSibling.nextSibling;
@@ -129,7 +130,7 @@ function openCity(evt, cityName) {
   }
 
   // Show the current tab, and add an "active" class to the link that opened the tab
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(cityName).style.display = "flex";
   evt.currentTarget.className += " active";
 }
 document.getElementById("defaultOpen").click();

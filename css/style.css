@@ -8,7 +8,7 @@ header {
   background-color: gold;
 }
 .main {
-  width: 1200px;
+  width: 90%;
 //  background-color: red;
   margin: auto;
 }
@@ -16,15 +16,16 @@ div[class^='candidate'] {
   float: left;
   display: block;
   box-sizing: border-box;
-  width: 19.5%;
+  width: 250px;
   position: relative;
   overflow: hidden;
-  margin: 0.25%;
+  margin: 4px;
   transition: filter .1s ease-in;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   mix-blend-mode: luminosity;
+  flex-grow: 1;
 }
 div[class^='candidate']:hover {
   transform: scale(1.002);
@@ -33,7 +34,7 @@ div[class^='candidate']:hover {
 }
 img {
   display: block;
-  width: 100%;
+  width: 120%;
   height: auto;
 }
 div[class^='candidate'] .sub {
@@ -131,6 +132,7 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+    flex-wrap: wrap;
 }
 .tabcontent {
     -webkit-animation: fadeEffect 1s ease-out;
