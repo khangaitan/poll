@@ -19,9 +19,9 @@
         <?php
           include 'conn.php';
           mysqli_set_charset($conn,"utf8");
-          $result1 = $conn->query('SELECT * FROM candidates ORDER BY nomination1 DESC');
-          $result2 = $conn->query('SELECT * FROM candidates ORDER BY nomination2 DESC');
-          $result3 = $conn->query('SELECT * FROM candidates ORDER BY nomination3 DESC');
+          $result1 = $conn->query('SELECT id, name, title, img, nomination1 FROM candidates ORDER BY nomination1 DESC');
+          $result2 = $conn->query('SELECT id, name, title, img, nomination2 FROM candidates ORDER BY nomination2 DESC');
+          $result3 = $conn->query('SELECT id, name, title, img, nomination3 FROM candidates ORDER BY nomination3 DESC');
         ?>
       <div id="London" class="tabcontent">
         <?php if ($result1->num_rows > 0) : ?>
