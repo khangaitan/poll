@@ -1,5 +1,5 @@
 <?php
-  $conn = new mysqli('localhost', 'root', '123', 'poll');
+  include 'conn.php';
 
   $id = $_POST['id'];
   $nid = $_POST['nomination_id'];
