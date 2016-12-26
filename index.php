@@ -14,7 +14,7 @@
     <ul class="tab">
       <li><a href="javascript:void(0)" style="background: blue;" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Өглөөний шувуухай (punctual)</a></li>
       <li><a href="javascript:void(0)" style="background: brown;" class="tablinks" onclick="openCity(event, 'Paris')">Тусч баавгай (helpful)</a></li>
-      <li><a href="javascript:void(0)" style="background: Lime;" class="tablinks" onclick="openCity(event, 'Tokyo')">Яг байгалиараа (cool)</a></li>
+      <li><a href="javascript:void(0)" style="background: green;" class="tablinks" onclick="openCity(event, 'Tokyo')">Яг байгалиараа (cool)</a></li>
     </ul>
     <div class="main">
         <?php
