@@ -1,24 +1,20 @@
 INSERT INTO candidates ( name, title, img) 
 VALUES (
-'Н. Ганхүү','Гүйцэтгэх захирал (Akela-Security)','ake1.jpg'
+'Сүрэнжав Гэрэлт-Од','Гүйцэтгэх захирал (TengerSystems)','ts1.jpg'
 );
 INSERT INTO candidates ( name, title, img) 
 VALUES (
-'Базарсад','Хамгаалагч (Akela-Security)','ake2.jpg'
+'Хурцбаатар Энхбаяр','Photographer (TengerSystems)','ts2.jpg'
 );
 INSERT INTO candidates ( name, title, img) 
 VALUES (
-'А. Энхмэнд','Брокер (Ard-Securities)','as1.jpg'
+'Түвшин Тэнүүн','Web Developer (TengerSystems)','ts3.jpg'
 );
 INSERT INTO candidates ( name, title, img) 
 VALUES (
-'М. Мөнх-Эрдэнэ','Дотоод аудитор (Ard-Holdings)','ma2.jpg'
+'Мөнхбаяр Хас-Эрдэнэ','Designer (TengerSystems)','ts4.jpg'
 );
 INSERT INTO candidates ( name, title, img) 
 VALUES (
-'Дашдондог Энхбилэг','Ахлах брокер (Ard-Securities)','ma3.jpg'
-);
-INSERT INTO candidates ( name, title, img) 
-VALUES (
-'Н. Содонсуяа','Дадлагажигч (Ard-Securities)','ma1.jpg'
+'Чимэд-Очир Алтан-Очир','Developer (TengerSystems)','ts5.jpg'
 );
