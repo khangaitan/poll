@@ -117,6 +117,7 @@ ul.tab li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    font-family: 'Roboto';
 }
 
 /* Change background color of links on hover */
@@ -147,8 +148,3 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     from {opacity: 0;}
     to {opacity: 1;}
 }
-
-
-
-
-
