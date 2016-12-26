@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-    <img src='images/cover.jpg'>
+    <img style="width: 100%;" src='images/cover.jpg'>
     </header>
     <ul class="tab">
       <li><a href="javascript:void(0)" style="background: blue;" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Өглөөний шувуухай (punctual)</a></li>
