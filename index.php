@@ -12,9 +12,9 @@
     <img style="width: 100%;" src='images/cover.jpg'>
     </header>
     <ul class="tab">
-      <li><a href="javascript:void(0)" style="background: ;" class="tablinks" onclick="openCity(event, 'ondon')" id="defaultOpen">Өглөөний шувуухай (punctual)</a></li>
-      <li><a href="javascript:void(0)" style="background: ;" class="tablinks" onclick="openCity(event, 'aris')">Тусч баавгай (helpful)</a></li>
-      <li><a href="javascript:void(0)" style="background: ;" class="tablinks" onclick="openCity(event, 'okyo')">Яг байгалиараа (cool)</a></li>
+      <li><a href="javascript:void(0)" style="background: ;" class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Өглөөний шувуухай (punctual)</a></li>
+      <li><a href="javascript:void(0)" style="background: ;" class="tablinks" onclick="openCity(event, 'Paris')">Тусч баавгай (helpful)</a></li>
+      <li><a href="javascript:void(0)" style="background: ;" class="tablinks" onclick="openCity(event, 'Tokyo')">Яг байгалиараа (cool)</a></li>
     </ul>
     <div class="main">
         <?php
@@ -31,7 +31,7 @@
                 <img src="images/1.png" />
                 <div class="sub">
                   <div class="voted" style="display:none;"><i class="fa fa-plus-square" aria-hidden="true"></i></div>
-                  <div class="vote" data-id="<?php echo $row['id']; ?>"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+                  <div class="voted" data-id="<?php echo $row['id']; ?>"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
                   <div class="point"><?php echo $row['nomination1']; ?></div>
                   <p class="name"><?php echo $row['name']; ?></p>
                   <p class="position"><?php echo $row['title']; ?></p>
